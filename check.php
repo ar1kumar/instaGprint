@@ -1,4 +1,8 @@
 <?php
+	
+	//Cofig for instagram API
+	$hastag = "instaCats";
+	$insta_clientID = "YOUR INSTAGRAM CLIENT ID";
 		
 	echo "Running...";
 	
@@ -10,10 +14,6 @@
 	$url = array(); 
 	$id = array();
 	$uname = array();
-	
-	//Cofig for instagram API
-	$hastag = "instaCats";
-	$insta_clientID = "YOUR INSTAGRAM CLIENT ID";
 	
 	$jsonurl = "https://api.instagram.com/v1/tags/".$hasgtag."/media/recent?client_id=".$insta_clientID;
 	$json = file_get_contents($jsonurl);

@@ -81,17 +81,11 @@
 		}
 		else
 		{
-			//echo "image already exist";
-			echo 'null';
-			//header("Location: example.php");
+			echo 'no new jobs';
 		}
 		
 	}
 
-	//header('Content-Type: application/json');
-	//$object = (object)$output;
-	//echo json_encode($object);
-	//header('Location: index.php?id='.$img_id.'&url='.$img_url.'&uname='.$uname);
 	
 	function save_image($getId, $getUrl, $getName){
 	
@@ -112,10 +106,8 @@
 			echo 'success';
 			global $output;
 			array_push($output, $getId.'#&'.$getUrl.'#&'.$getName);
-			//header('Location: example.php?id='.$getId.'&url='.$getUrl);
 			//$result = $getUrl;
 		}else{
-			//echo 'error';
 			echo 'error';
 		}
 	}

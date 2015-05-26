@@ -1,7 +1,7 @@
 # instaGprint
 Print instagram pictures realtime
 
-Fetch picture from instagram with a specific hasgtag and prints in automatically using Google cloud print API and Instagram public API
+Fetch picture from instagram with a specific hashtag and prints in automatically using Google cloud print API and Instagram public API
 
 #Instructions
 1.Make a new Google developer app and an Instagram app to get API client key and secret. <br>
